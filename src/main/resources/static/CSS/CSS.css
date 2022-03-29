@@ -291,6 +291,19 @@ figure img {
     text-decoration: none;
 }
 
-
+.GuiaDeUsoT{
+    font-size: 33px;
+    color:#17A589;    
+}
+.GuiaDeUsoP{
+    font-size: 22px;
+    
+}
+.GuiaDeUsoR{
+     font-size: 18px;
+}
+.GuiaDeUsoL{
+    text-decoration: none;
+}
 
 
