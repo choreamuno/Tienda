@@ -35,15 +35,15 @@
         <section>
             
 
-            <video width="320" height="240" controls>
-                <source src="../../static/Imagenes/videos/5Puntarenas1.mp4" type="video/mp4">
+            <video width="900" height="600" controls autoplay muted>
+                <source src="Imagenes/videos/5Puntarenas1.mp4" type="video/mp4">
                 Your browser does not support the <code>video</code> tag.
             </video>
             
             <br><br><br>
             
-            <p class="descripHotel">El Hotel Yadran Beach Resort se encuentra en Puntarenas, a 1,3 km del parque marino del Pacífico,<br> 
-                y ofrece restaurante, aparcamiento privado gratuito, piscina al aire libre y bar.</p>
+            <p class="descripHotel">El Hotel Yadran Beach Resort se encuentra en Puntarenas, a 1,3 km del parque marino del <br>
+                Pacífico, y ofrece restaurante, aparcamiento privado gratuito, piscina al aire libre y bar.</p>
             
             <br><br>
             
@@ -68,6 +68,24 @@
 
 
     </center>
+    
+     <header class="header">
+
+        <nav class="nav ">
+            <a th:href="@{/}" class="logo fuente">ReservaTrip</a>
+            <ul class="menu">
+                <li class="item"><a class="link fuente" th:href="@{/Puntarenas}"><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li class="item"><a class="link fuente" th:href="@{/GuiaDeUso}">Guia de Uso</a></li>
+                <li class="item"><a class="link fuente" >Gestionar Reservaciones</a></li>                                       
+                <li class="item"><a class="link fuente" th:href="@{/Catalogo}" >Catalogo</a></li>                    
+                <li class="Separador"></li>
+                <li class="itemD"><a class="link fuente" href="https://www.instagram.com/reservatrip_cr/" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://twitter.com/ReservaTrip"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://www.youtube.com/channel/UCibxKuw_BOQm1gwIBQUDKNA"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
 
 
     <br><br><br><br>

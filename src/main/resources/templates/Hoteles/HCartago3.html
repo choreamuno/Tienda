@@ -36,16 +36,18 @@
         <section>
             
 
-            <video width="320" height="240" controls>
-                <source src="../../static/Imagenes/videos/3Cartago3.mp4" type="video/mp4">
+            <video width="900" height="600" controls autoplay muted>
+                <source src="Imagenes/videos/3Cartago3.mp4" type="video/mp4">
                 Your browser does not support the <code>video</code> tag.
             </video>
             
             <br><br><br>
             
-            <p class="descripHotel">Las Cabañas y Mirador Secret Garden CR se encuentran en Cartago, a 6 km del volcán Irazú y a 10 km del jardín botánico de Lankester,<br>
-                y ofrecen alojamiento con jardín, WiFi gratuita en todas las instalaciones y aparcamiento privado gratuito. Ofrece habitaciones familiares y terraza.<br>
-                El establecimiento cuenta con cocina compartida, salas de reuniones, mostrador de información turística y servicio de limpieza en seco. </p>
+            <p class="descripHotel">Las Cabañas y Mirador Secret Garden CR se encuentran en Cartago, a 6 km del volcán Irazú<br>
+                y a 10 km del jardín botánico de Lankester, y ofrecen alojamiento con jardín, WiFi gratuita en<br>
+                todas las instalaciones y aparcamiento privado gratuito. Ofrece habitaciones familiares y terraza.<br>
+                El establecimiento cuenta con cocina compartida, salas de reuniones, mostrador de información<br>
+                turística y servicio de limpieza en seco. </p>
             
             <br><br>
             
@@ -70,6 +72,24 @@
 
 
     </center>
+    
+    <header class="header">
+
+        <nav class="nav ">
+            <a th:href="@{/}" class="logo fuente">ReservaTrip</a>
+            <ul class="menu">
+                <li class="item"><a class="link fuente" th:href="@{/Cartago}"><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li class="item"><a class="link fuente" th:href="@{/GuiaDeUso}">Guia de Uso</a></li>
+                <li class="item"><a class="link fuente" >Gestionar Reservaciones</a></li>                                       
+                <li class="item"><a class="link fuente" th:href="@{/Catalogo}" >Catalogo</a></li>                    
+                <li class="Separador"></li>
+                <li class="itemD"><a class="link fuente" href="https://www.instagram.com/reservatrip_cr/" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://twitter.com/ReservaTrip"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://www.youtube.com/channel/UCibxKuw_BOQm1gwIBQUDKNA"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
 
 
     <br><br><br><br>

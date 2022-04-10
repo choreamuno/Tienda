@@ -36,15 +36,16 @@
         <section>
             
 
-            <video width="320" height="240" controls>
-                <source src="../../static/Imagenes/videos/1SanJose3.mp4" type="video/mp4">
+            <video width="900" height="600" controls autoplay muted>
+                <source src="Imagenes/videos/1SanJose3.mp4" type="video/mp4">
                 Your browser does not support the <code>video</code> tag.
             </video>
             
             <br><br><br>
             
-            <p class="descripHotel">Este hotel se encuentra a 5 minutos en coche del parque metropolitano La Sabana y del centro comercial Multiplaza y dispone<br>
-                de piscina cubierta, terraza, bañera de hidromasaje y WiFi de alta velocidad.</p>
+            <p class="descripHotel">Este hotel se encuentra a 5 minutos en coche del parque metropolitano La Sabana y del centro<br>
+                comercial Multiplaza y dispone de piscina cubierta, terraza, bañera de hidromasaje y WiFi de <br>
+                alta velocidad.</p>
             
             <br><br>
             
@@ -69,6 +70,24 @@
 
 
     </center>
+    
+     <header class="header">
+
+        <nav class="nav ">
+            <a th:href="@{/}" class="logo fuente">ReservaTrip</a>
+            <ul class="menu">
+                <li class="item"><a class="link fuente" th:href="@{/SanJose}"><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li class="item"><a class="link fuente" th:href="@{/GuiaDeUso}">Guia de Uso</a></li>
+                <li class="item"><a class="link fuente" >Gestionar Reservaciones</a></li>                                       
+                <li class="item"><a class="link fuente" th:href="@{/Catalogo}" >Catalogo</a></li>                    
+                <li class="Separador"></li>
+                <li class="itemD"><a class="link fuente" href="https://www.instagram.com/reservatrip_cr/" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://twitter.com/ReservaTrip"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://www.youtube.com/channel/UCibxKuw_BOQm1gwIBQUDKNA"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
 
 
     <br><br><br><br>

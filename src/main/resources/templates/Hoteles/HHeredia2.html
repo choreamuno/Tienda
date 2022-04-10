@@ -35,15 +35,16 @@
 
         <section>
        
-            <video width="320" height="240" controls>
-                <source src="../../static/Imagenes/videos/4Heredia2.mp4" type="video/mp4">
+            <video width="900" height="600" controls autoplay muted>
+                <source src="Imagenes/videos/4Heredia2.mp4" type="video/mp4">
                 Your browser does not support the <code>video</code> tag.
             </video>
             
             <br><br><br>
             
-            <p class="descripHotel">El Hotel Valladolid se encuentra en Heredia, a 2,5 km del Palacio de los Deportes y a 2,6 km del estadio Eladio Rosabal Cordero,<br> 
-                    y ofrece alojamiento con bar, WiFi gratuita en todas las instalaciones</p>
+            <p class="descripHotel">El Hotel Valladolid se encuentra en Heredia, a 2,5 km del Palacio de los Deportes y a 2,6 km <br>
+                del estadio Eladio Rosabal Cordero, y ofrece alojamiento con bar, WiFi gratuita en todas<br>
+                las instalaciones</p>
             
             <br><br>
             
@@ -68,6 +69,24 @@
 
 
     </center>
+    
+    <header class="header">
+
+        <nav class="nav ">
+            <a th:href="@{/}" class="logo fuente">ReservaTrip</a>
+            <ul class="menu">
+                <li class="item"><a class="link fuente" th:href="@{/Heredia}"><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li class="item"><a class="link fuente" th:href="@{/GuiaDeUso}">Guia de Uso</a></li>
+                <li class="item"><a class="link fuente" >Gestionar Reservaciones</a></li>                                       
+                <li class="item"><a class="link fuente" th:href="@{/Catalogo}" >Catalogo</a></li>                    
+                <li class="Separador"></li>
+                <li class="itemD"><a class="link fuente" href="https://www.instagram.com/reservatrip_cr/" ><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://twitter.com/ReservaTrip"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="itemD"><a class="link fuente" href="https://www.youtube.com/channel/UCibxKuw_BOQm1gwIBQUDKNA"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+
+    </header>
 
     <br><br><br><br>
     <footer class="footer">
